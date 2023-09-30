@@ -53,10 +53,10 @@ height <- st_distance(bottom_left, top_left)
 # handle conditions of width or height being the longer side
 
 if (width > height) {
-  w_ratio = width / width
+  w_ratio = 1
   h_ratio = height / width
 } else {
-  h_ratio = height / height
+  h_ratio = 1
   w_ratio = width / height
 }
 
