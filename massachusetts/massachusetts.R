@@ -8,7 +8,7 @@ library(colorspace)
 
 #Load kontur data
 
-data <- st_read("../data/kontur_population_US_20220630.gpkg")
+data <- st_read("/Users/mgillis/Desktop/Projects/population-density-maps/data/kontur_population_US_20220630.gpkg")
 
 #Load states 
 
@@ -61,7 +61,7 @@ if (width > height) {
   w_ratio = 1
   h_ratio = height / width
 } else {
-  h_ration = 1
+  h_ratio = 1
   w_ratio = width / height
 }
 
